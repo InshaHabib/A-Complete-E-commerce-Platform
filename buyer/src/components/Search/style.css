@@ -1,0 +1,30 @@
+.searchBox input::placeholder{color: #1f1f1f !important;}
+
+.suggestions-container {
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.suggestion-item {
+  border-bottom: 1px solid #f3f3f3;
+  transition: background-color 0.2s ease;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #f8f8f8;
+}
+
+/* Add smooth transition for loading spinner */
+.searchBox button {
+  transition: all 0.2s ease;
+}
+
+/* Improve input focus state */
+.searchBox input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
